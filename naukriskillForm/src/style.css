@@ -1,0 +1,71 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skill-group {
+  margin-bottom: 20px;
+}
+
+.skill-group input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Hide dropdown arrow for webkit (Chrome, Safari) */
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* Hide dropdown arrow for Mozilla Firefox */
+input[type='text']::-moz-dropdown-arrow {
+  display: none;
+}
+
+/* Hide dropdown arrow for webkit (Chrome, Safari) */
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* Hide dropdown arrow for Mozilla Firefox */
+input[type='text']::-moz-dropdown-arrow {
+  display: none;
+}
